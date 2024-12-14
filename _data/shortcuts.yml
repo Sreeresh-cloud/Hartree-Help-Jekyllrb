@@ -1,0 +1,20 @@
+- title: Add a Customer
+  url: /add-customer/
+- title: Add a Site
+  url: /add-site/
+- title: Add a Project in Remote Assessment
+  url: /add-project/
+- title: Do an ASHRAE Energy Audit
+  url: /energy-audit/
+- title: Create an ASHRAE Energy Audit Report
+  url: /create-audit-report/
+- title: Add Groups in Energy Management
+  url: /add-groups/
+- title: Upload Utility Data Using Excel
+  url: /upload-utility-data/
+- title: Add Scope 1 and 2 emissions reduction goals
+  url: /add-goals/
+- title: Create Baselines
+  url: /create-baselines/
+- title: Calendarize Data & Baselines
+  url: /calendarize-data/

@@ -1,0 +1,10 @@
+<svg id="add_customer" data-name="add customer" xmlns="http://www.w3.org/2000/svg" width="26"
+  height="25.5" viewBox="0 0 26 25.5">
+  <g id="icon_Invoices" transform="translate(0 5.5)">
+    <path id="Path_102" data-name="Path 102"
+      d="M19.571,0H2.429A1.273,1.273,0,0,0,1,1.25V20l4.286-2.5L8.143,20,11,17.5,13.857,20l2.857-2.5L21,20V1.25A1.273,1.273,0,0,0,19.571,0ZM16.714,12.5H5.286V10H16.714Zm0-5H5.286V5H16.714Z"
+      transform="translate(-1)" fill="currentColor" />
+  </g>
+  <path id="Path_367" data-name="Path 367" d="M15,10H12.5v2.5H10V15h2.5v2.5H15V15h2.5V12.5H15Z"
+    transform="translate(8.5 -10)" fill="currentColor" />
+</svg>

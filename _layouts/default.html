@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="{{ site.css_path }}/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.7/dist/tailwind.min.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/primeicons@6.0.1/primeicons.css">
+
+  </head>
+  <body>
+    <!-- Header with white background, now matching your React component -->
+    <header class="header-desktop">
+      <div class="logo">
+        <img src="{{ site.image_path }}/logo.png" alt="Logo" class="logo-image" />
+      </div>
+      <div class="nav">
+        <div class="custom-element"  title="Org Name">
+          Coca Cola
+          <img class = "icon-style" src="{{ site.image_path }}/add_customer.png" alt="Logo" class="logo-image" />
+        </div>
+     </div>
+    
+        <a class="settings-link"  title="Settings">
+          <i class="pi pi-cog settings-icon"></i>
+        </a>
+      </div>
+    </header>
+    
+
+    <!-- Banner Section -->
+    <div class="banner-container">
+      <div class="banner-text">
+        <h1>Hartree HELP</h1>
+        <div class="refer-to">
+          Refer to <a href="https://hartree.ai/contact-us">Hartree.ai/contact us</a>
+        </div>
+      </div>
+      <div class="banner-image-container">
+        <img src="{{ site.image_path }}/DATA ANALYTICS.png" alt="Banner Illustration">
+        <img src="{{ site.image_path }}/ENERGY MAN.png" alt="Banner Illustration">
+      </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <main class="main">
+        {{ content }}
+    </main>
+
+   
+    
+
+
+  </body>
+</html>
