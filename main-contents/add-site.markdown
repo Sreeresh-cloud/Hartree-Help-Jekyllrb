@@ -19,9 +19,9 @@ permalink: /add-site/
     <li>From the settings menu, click <strong>Site Management</strong>.</li>
     <li>Click the <strong>Plus (+)</strong> button to add a new site.</li>
     <li>In the Add Site pop-up window:</li>
-    <ul>
+ 
       <li>Enter the required site information.</li>
-    </ul>
+
     <li>Click <strong>Save</strong> to complete the process.</li>
   </ol>
 </div>

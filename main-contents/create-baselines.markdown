@@ -24,21 +24,28 @@ permalink: /create-baselines/
         <img src="{{ site.image_path }}/9img1.png" alt="" />
 
     <li>To add a Baseline:
-      <ol>
-        <li>Scroll down to the <strong>Actual Consumption vs baseline</strong> section.</li>
-        <li>Click the <strong>Edit</strong> button to complete the process.</li>
-        <li>The <strong>Baseline Management</strong> window will open by clicking the Edit button.</li>
-      </ol>
+         <div class="sub-point">
+            a)Scroll down to the <strong>Actual Consumption vs baseline</strong> section.
+         </div>
+         <div class="sub-point">
+             b)Click the <strong>Edit</strong> button to complete the process.
+         </div>
+         <div class="sub-point">
+             c)The <strong>Baseline Management</strong> window will open by clicking the Edit button
+         </div>        
     </li>
+
     <li>In the <strong>Baseline Management</strong> window:
-      <ol>
-        <li>Click the <strong>Plus (+)</strong> button to add a new baseline.</li>
-        <li>In the <strong>Add baseline</strong> pop-up window:
+        <div class="sub-point">
+          a) Click the <strong>Plus (+)</strong> button to add a new baseline.:
+      </div>
           <div class="sub-point">
-            a) Enter the required baseline information.
-          </div>
-        </li>
-      </ol>
+          b) In the <strong>Add baseline</strong> pop-up window:
+      </div>
+      <div class="sub-point">
+            c) Enter the required baseline information.
+      </div>
+        
     </li>
     <li>Click <strong>Update</strong> and then <strong>Run</strong> to complete the process.</li>
 
@@ -62,3 +69,5 @@ permalink: /create-baselines/
         {% endfor %}
       </ul>
     </div>
+
+  

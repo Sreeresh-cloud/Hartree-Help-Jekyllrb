@@ -1,5 +1,6 @@
 * {
-  font-family: "Avenir", sans-serif;
+  font-family: 'Nunito', sans-serif;
+  
 }
 
 .header-desktop, .nav, .custom-element {
@@ -117,12 +118,27 @@
   }
   
   .banner-text h1 {
-    color: black;
-    font-size: 3rem;
+    color: #555555; /* Base color */
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5rem; /* Base size for the first line */
+    font-weight: 500; /* Emphasis */
+    line-height: 1.2; /* Adjusted spacing */
+    margin-bottom: 0.2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Depth effect */
+    -webkit-background-clip: text; /* Clip background to text */
+    letter-spacing: 1.5px; /* Elegance */
+    text-align: left; /* Centered text */
+  }
+  
+  /* Specific styles for each line */
+  .banner-text .line-1 {
+    font-size: 5rem; /* Slightly larger for "Hi!" */
     font-weight: 500;
-    line-height: 1.25;
-    margin-bottom: 0.2rem; 
-}
+  }
+  
+
+
+  
 
 .banner-text .refer-to {
     color: black;
@@ -167,9 +183,8 @@
   /* Main Content Section Styles */
   .main {
     flex: 1;
-    padding: 0px 80px 80px 80px;
+    padding: 0px 80px 150px 80px;
     max-width: 1600px;
-    min-height: 2000px;
 }
 
 .shortcuts-section {
@@ -177,6 +192,7 @@
     padding: 60px;
     margin-bottom: 40px;
     border-radius: 16px;
+    margin-left: 35px;
 }
 
 .shortcuts-section div {
@@ -271,7 +287,7 @@
 }
 
 .other-topics li:hover {
-  transform: translateX(-30px); 
+  transform: translateX(-40px); 
 }
 
 .other-topics a {
@@ -335,12 +351,12 @@ strong {
 }
 
 .styled-list li:before {
-  content: counter(main-item) ". "; 
+  content: counter(main-item) ; 
   counter-increment: main-item;
   font-size: 1.5rem; 
   font-weight: bold;
   color: #ffffff; 
-  background-color: #42b29d; 
+  background-color: #838296; 
   width: 2rem; 
   height: 2rem; 
   border-radius: 50%; 
@@ -348,8 +364,10 @@ strong {
   align-items: center; 
   justify-content: center; 
   position: absolute;
+  transform: translateY(-2px);
   left: 0;
   top: 0.2rem;
+  bottom: 0.2rem;
 }
 
 
