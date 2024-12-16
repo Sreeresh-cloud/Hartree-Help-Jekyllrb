@@ -9,9 +9,12 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.7/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/primeicons@6.0.1/primeicons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   </head>
   <body>
+
+
     <!-- Header with white background, now matching your React component -->
     <header class="header-desktop">
       <div class="logo">
@@ -24,26 +27,11 @@
     </header>
     
 
-    <!-- Banner Section -->
-    <div class="banner-container">
-      <div class="banner-text">
-        <h1 class="line-1">Welcome to Hartree Help!</h1>
-      </div>
-      
-      <div class="banner-image-container">
-        <img src="{{ site.image_path }}/DATA ANALYTICS.png" alt="Banner Illustration">
-        <img src="{{ site.image_path }}/ENERGY MAN.png" alt="Banner Illustration">
-      </div>
-    </div>
+ 
 
     <!-- Main Content Section -->
     <main class="main">
         {{ content }}
     </main>
-
-   
-    
-
-
   </body>
 </html>

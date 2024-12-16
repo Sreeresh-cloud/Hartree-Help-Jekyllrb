@@ -1,5 +1,18 @@
-<section class="shortcuts-section">
-    <h2 class="text-2xl font-bold mb-4 text-left " style="border-bottom: 3px solid #ddd;" >Shortcuts</h2>
+  
+  <!-- Banner Section -->
+   <div class="banner-container">
+    <div class="banner-text">
+      <h1 class="line-1">Welcome to Hartree Help!</h1>
+    </div>
+    
+    <div class="banner-image-container">
+      <img src="{{ site.image_path }}/DATA ANALYTICS.png" alt="Banner Illustration">
+      <img src="{{ site.image_path }}/ENERGY MAN.png" alt="Banner Illustration">
+    </div>
+  </div>
+  
+  <section class="shortcuts-section">
+    <h2 class="text-2xl font-bold text-left" style="border-bottom: 3px solid #ddd; margin-bottom: 50px;">Shortcuts</h2>
     <div class="flex flex-wrap gap-4 mt-16">
         {% for shortcut in site.data.shortcuts %}
         <div class="w-full sm:w-1/2 lg:w-1/3">
