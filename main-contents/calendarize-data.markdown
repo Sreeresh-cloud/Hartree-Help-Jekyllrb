@@ -6,20 +6,28 @@ permalink: /calendarize-data/
 
 <div class="styled-list">
   <h2>How to Calendarize Data & Baselines</h2>
-  <p>To add a calendarized data & baseline, you can do the following:</p>
-  <p>Calendarization is applied when production or occupancy data is available only on a monthly basis, but utility data is recorded for non-calendarized time periods. This process aligns the utility data with calendar months for more accurate comparison and analysis.</p>
-  <p><strong>Note:</strong> Assumption, the group is added, the site is attached to the group, and data is uploaded.</p>
-  <ol>
+    <p style="margin-bottom: 16px; padding: 16px;">To add a calendarized data & baseline, you can do the following:</p>
+    <p style="margin-bottom: 16px; padding: 16px;">
+        Calendarization is applied when production or occupancy data is available only on a monthly basis, but utility data is recorded for non-calendarized time periods. This process aligns the utility data with calendar months for more accurate comparison and analysis.
+    </p>
+    <p style="margin-bottom: 16px; padding: 16px;">
+      <strong>Note:</strong> Assumption, the group is added, the site is attached to the group, and data is uploaded.
+    </p>
+
+
+    
     <li>In the <strong>Baseline Management</strong> window: Follow the steps in the "How to Create Baselines" section for guidance.
-      <ol>
-        <li>Click the <strong>Plus (+)</strong> button to add a new baseline.</li>
-        <li>In the <strong>Add baseline</strong> pop-up window:
-          <div class="sub-point">
-            a) Enter the required baseline information.
-          </div>
-        </li>
-      </ol>
+        <div class="sub-point">
+           a) Click the <strong>Plus (+)</strong> button to add a new baseline.
+        </div>
+        <div class="sub-point">
+            b) In the <strong>Add baseline</strong> pop-up window:
+        </div>
+        <div class="sub-point">
+            c) Enter the required baseline information.
+        </div>     
     </li>
+
     <li>In the <strong>Add baseline</strong> pop-up window:
       <div class="sub-point">
         <div class="example-item" style="padding-bottom: 15px;">a) Change <strong>Calendarized [Yes/No]</strong> button to <strong>Yes</strong>.</div>

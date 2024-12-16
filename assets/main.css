@@ -203,11 +203,10 @@
     margin-left:120px;
 }
 
-.shortcuts-section div {
-    margin-bottom: 10px;
+.shortcuts-section div a{
+    margin-bottom: 20px;
+    text-decoration: none;
 }
-
-
 
 .shortcuts-section div a:hover {
     text-decoration: underline !important;
